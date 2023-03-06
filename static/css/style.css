@@ -1,0 +1,53 @@
+body{
+  background-color: #ab96db;
+}
+/* Set font family and font size */
+.content {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+
+/* Style the list */
+#list {
+  list-style: none;
+  margin: 5;
+  padding: 5;
+}
+
+/* Style the list items */
+#list li {
+  position: relative;
+  padding-left: 500px;
+  margin-bottom: 5px;
+}
+
+/* Style the links */
+#list li > a {
+  display: block;
+  color: #FFFFD3;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Style the active link */
+#list li > a.active {
+  font-weight: bold;
+  color: #c6fad6;
+}
+
+
+/* Style the submenu items */
+#list li #list li {
+  position: relative;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+/* Style the submenu links */
+#list ul li > a {
+  display: block;
+  color: #ffffd39b;
+  transition: color 0.2s ease-in-out;
+}
+
+
